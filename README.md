@@ -7,7 +7,7 @@ This repository contains a research implementation that classifies yoga asana te
 ## Method
 
 3. **Feature fusion:** concatenates the HoG, Zoning and LBP feature representations.
-4. **Classification:** an RBF-kernel Random forest predicts the asana class.
+4. **Classification:** a Random forest predicts the asana class.
 
 > Important: The classifier receives generated text features, not raw image pixels. Inspect `generated\\\_image\\\_descriptions` before interpreting performance.
 
